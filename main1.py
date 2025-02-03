@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Email credentials
-MY_EMAIL = "sundarrajdme333@gmail.com"
-MY_PASSWORD = "hjjktuxguvrtknxz"
+MY_EMAIL = "your mail here"
+MY_PASSWORD = "password here"
 
 # Get today's date
 today = datetime.now()
