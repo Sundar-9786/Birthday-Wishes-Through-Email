@@ -1,27 +1,59 @@
-# Birthday-Wishes-Through-Email
+# Birthday Wishes Through Email 🎉
 
-📌 Project Overview
+## 📌 Project Overview
+This project automates birthday greetings via email. It reads a list of birthdays from a CSV file, selects a pre-written template, personalizes it, and sends emails using Python's **smtplib**.
 
-This project automates birthday greetings via email. It reads a list of birthdays from a CSV file, selects a pre-written template, personalizes it, and sends emails using Python's smtplib.
+## 🚀 Features
+- Reads birthdays from a CSV file.
+- Uses **letter templates** for personalized messages.
+- Supports **multiple recipients** with the same birth date.
+- Utilizes **SMTP protocol** for sending emails securely.
+- Encodes emails in **UTF-8** to support emojis and special characters.
 
-🚀 Features
+## 🛠️ Technologies Used
+- **Python**
+- **Pandas** (for handling CSV files)
+- **smtplib** (for email sending)
+- **MIME** (for structured email formatting)
 
-Reads birthdays from a CSV file.
+## 📂 Project Structure
+```
+📁 Birthday-Wishes-Email
+├── birthdays.csv  # CSV file with name, email, birth date
+├── letter_templates
+│   ├── letter_2.txt  # Template for email content
+├── birthday_wisher.py  # Main Python script
+├── README.md  # Project documentation
+```
 
-Uses letter templates for personalized messages.
+## 📌 How to Use
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/birthday-wishes-email.git
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install pandas
+   ```
+3. **Update your email credentials** inside `birthday_wisher.py`.
+4. **Run the script:**
+   ```bash
+   python birthday_wisher.py
+   ```
 
-Supports multiple recipients with the same birth date.
+## 📬 Sample Email Output
+```
+Subject: Happy Birthday!
 
-Utilizes SMTP protocol for sending emails securely.
+🎉🎂✨ 🎈🎉 HAPPY BIRTHDAY, [NAME]! 🎉🎈 ✨🎂🎉
+...
+With all the love, confetti, and good vibes,
+By Raju 🎈✨
+```
 
-Encodes emails in UTF-8 to support emojis and special characters.
+## 📜 License
+This project is open-source and free to use.
 
-🛠️ Technologies Used
+---
+✉️ **Created by Raj** | 🌟 Don't forget to ⭐ the repo!
 
-Python
-
-Pandas (for handling CSV files)
-
-smtplib (for email sending)
-
-MIME (for structured email formatting)
