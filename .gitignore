@@ -1,0 +1,26 @@
+# Environment / secrets — never commit these
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
